@@ -5,77 +5,80 @@
     <link rel="shortcut icon" href="favicon.png?v=1.0" />
 
     <style>
-      body a { text-decoration: none; }
-      body a:hover, body a:focus { text-decoration: underline; }
-      body a:visited { color: blue; }
+      body { padding: 50px; background-color: white; }
 
-      .h-link { color: inherit; text-decoration: none; padding: 0; margin: 0; }
+      a {
+        text-decoration: none; color: rgb(20, 22, 245);
+        -webkit-transition: all 250ms; -moz-transition: all 250ms; transition: all 250ms;
+      }
+      a:hover, a:focus { text-decoration: underline; color: rgb(0, 110, 255); }
 
-      .shane { font-size: 400%; font-weight: bold; margin: 30px 10px; color: #333; }
+      .box {
+        margin-bottom: 30px; padding: 15px; max-width: 555px;
+        color: rgba(0, 0, 0, 0.87);
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+        font-family: 'Times New Roman', serif; font-size: 18px; line-height: 24px;
+        -webkit-transition: all 250ms; -moz-transition: all 250ms; transition: all 250ms;
+      }
+      .box-title { display: block; font-size: 36px; line-height: 36px; margin: 10px 0px 20px 0px; }
 
-      .content-volume-one { margin: 0px 15px; }
-      .content-volume-one-title { font-size: 249%; font-style: italic; font-weight: bold; margin-bottom: 5px; display: inline-block; }
-      .content-volume-one-title:hover { color: #fff; background-color: #111; text-decoration: line-through; }
-      .content-volume-one .seperator { border-bottom: 3px solid yellow; }
+      #shane .box-title { font-size: 72px; line-height: 72px; font-weight: bold; color: #333; }
 
-      .tweet-heaven { margin: 35px 15px; }
-      .tweet-heaven .seperator { border-bottom: 3px solid #35e9d7; }
-      .heaven-link { color: #8028f2; font-size: 320%; font-style: italic; }
-      .heaven-link:hover { color: #f24486; text-decoration: none; }
-      .heaven-description { font-size: 175%; color: #a8a8a8; padding-left: 10px; display: inline-block; }
-      .heaven-description:hover { -webkit-transform: rotate(20deg); transform: rotate(20deg); }
+      #tweet-heaven { border-right: 3px solid #35e9d7; }
+      #heaven-link { color: #8028f2; font-size: 48px; font-style: italic; }
+      #heaven-link:hover { color: #f24486; text-decoration: none; }
+      #heaven-description { font-size: 175%; color: #a8a8a8; margin: 25px 0px 15px 0px; }
+      #heaven-description:hover { -webkit-transform: rotate(20deg); transform: rotate(20deg); }
 
-      .recommends { font-size: 200%; font-style: italic; text-decoration: underline; color: #333; margin: 30px 5px; }
+      #content-volume-one { border-right: 3px solid yellow; }
+      #content-volume-one-list a { display: block; margin-bottom: 10px; font-size: 20px; }
+      #content-volume-one-archive-link { margin-top: 15px; }
 
-      .idiots { font-size: 20px; font-weight: bold; margin: 20px 5px; color: black; }
-      .idiots a { padding: 0; margin: 0; }
-
-      .contact { font-size: 18px; margin: 10px 5px; }
-      .contact a, .contact a:visited { color: black; text-decoration: underline; }
-      .contact a:hover { font-style: italic; }
+      #recommends-title { font-size: 24px; }
     </style>
   </head>
    <body>
-    <div class="shane">Mister Shane</div>
-
-    <div class="tweet-heaven">
-      <div class="seperator" style="margin-bottom: 20px;"></div>
-      <a class="heaven-link" href="http://heaven.mistershane.com">Shane's Tweet Heaven</a>
-      <span class="heaven-description">(an isolated exploration)</span>
-      <div class="seperator" style="margin-top: 20px;"></div>
+    <div id="shane" class="box">
+      <div class="box-title">Mister Shane</div>
     </div>
 
-    <div class="content-volume-one">
-      <div class="content-volume-one-title">Conte<a class="h-link" href="words.html">n</a>t: Volume 1</div>
-      <div class="seperator"></div>
-
-      <h1><a href="http://laborpains.mistershane.com">Labor Pains</a></h1>
-
-      <h1><a href="http://osteen.mistershane.com">Wrestling with John Cena</a></h1>
-
-      <h1><a href="http://pig.mistershane.com">Undercover Pig Factory</a></h1>
-
-      <h1><a href="http://birthday.mistershane.com">Happy Birthday, Kevin</a></h1>
-
-      <h1><a href="http://eat.mistershane.com">Six Pack Shortcuts</a></h1>
-
-      <div class="seperator"></div>
+    <div id="tweet-heaven" class="box">
+      <a class="box-title" id="heaven-link" href="http://heaven.mistershane.com">Shane's Tweet Heaven</a>
+      <div id="heaven-description">(an isolated exploration)</div>
     </div>
 
-    <div class="idiots">
-      Content Volume 1 Audio Archive:
-      <a href="http://mistershane.bandcamp.com/">mistershane.bandcamp.com</a>
+    <div id="content-volume-one" class="box">
+      <div class="box-title">Conte<a style="color: inherit;" href="words.html">n</a>t: Volume 1</div>
+
+      <div id="content-volume-one-list">
+        <a href="http://laborpains.mistershane.com">Labor Pains</a>
+        <a href="http://osteen.mistershane.com">Wrestling with John Cena</a>
+        <a href="http://pig.mistershane.com">Undercover Pig Factory</a>
+        <a href="http://birthday.mistershane.com">Happy Birthday, Kevin</a>
+        <a href="http://eat.mistershane.com">Six Pack Shortcuts</a>
+      </div>
+      <div id="content-volume-one-archive-link">
+        Content Volume 1 Audio Archive:
+        <a href="http://mistershane.bandcamp.com/">mistershane.bandcamp.com</a>
+      </div>
     </div>
 
-    <div class="recommends">
-      How to: Please consume media from gogle chrome or firefox or new safari for optimized content
-      (u probably <b>need</b> it). You probably also need a good &amp; fast
-      computer for most things sorry! One last thing try to view in full screen / presentation mode thank you.
+    <div id="recommends" class="box">
+      <div class="box-title" id="recommends-title">Help</div>
+      <p>
+        When consuming Web Content, try to use Google's Chrome Browser.
+        If you can't, Mozilla's Firefox Browser or Apple's Safari Browser will probably work ok.
+        However, this is the optimization of Content; don't You want to see the Best?
+      </p>
+      <p>A relatively new &amp; fast computer is best also, sorry about that.</p>
+      <p>Please view in a big window, try it full screen, thanks.</p>
     </div>
 
-    <div class="contact">
+    <div id="contact" class="box">
       <p>Contact Mister Shane here if you like: mistershanemgmt@gmail.com</p>
-      <p>Shane is <a href="http://www.porkf.at/" target="_blank">kevin</a> and <a href="http://www.seandelanty.com/" target="_blank">sean</p>
+    </div>
+    <div id="who" class="box">
+      <p>Mister Shane is made of <a href="http://www.porkf.at/" target="_blank">Kevin</a> and <a href="http://www.seandelanty.com/" target="_blank">Sean</p>
     </div>
 
   <script>
