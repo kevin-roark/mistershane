@@ -1,0 +1,31 @@
+
+body { padding: 50px; background-color: white; }
+
+a {
+  text-decoration: none; color: rgb(20, 22, 245);
+  -webkit-transition: all 250ms; -moz-transition: all 250ms; transition: all 250ms;
+}
+a:hover, a:focus { text-decoration: underline; color: rgb(0, 110, 255); }
+
+.box {
+  margin-bottom: 30px; padding: 15px; max-width: 555px;
+  color: rgba(0, 0, 0, 0.87);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+  font-family: 'Times New Roman', serif; font-size: 18px; line-height: 24px;
+  -webkit-transition: all 250ms; -moz-transition: all 250ms; transition: all 250ms;
+}
+.box-title { display: block; font-size: 36px; line-height: 36px; margin: 10px 0px 20px 0px; }
+
+#shane .box-title { font-size: 72px; line-height: 72px; font-weight: bold; color: #333; }
+
+#tweet-heaven { border-right: 3px solid #35e9d7; }
+#heaven-link { color: #8028f2; font-size: 48px; font-style: italic; }
+#heaven-link:hover { color: #f24486; text-decoration: none; }
+#heaven-description { font-size: 175%; color: #a8a8a8; margin: 25px 0px 15px 0px; }
+#heaven-description:hover { -webkit-transform: rotate(20deg); transform: rotate(20deg); }
+
+#content-volume-one { border-right: 3px solid yellow; }
+#content-volume-one-list a { display: block; margin-bottom: 10px; font-size: 20px; }
+#content-volume-one-archive-link { margin-top: 15px; }
+
+#recommends-title { font-size: 24px; }
