@@ -14,18 +14,21 @@ a:hover, a:focus { text-decoration: underline; color: rgb(0, 110, 255); }
   font-family: 'Times New Roman', serif; font-size: 18px; line-height: 24px;
   -webkit-transition: all 250ms; -moz-transition: all 250ms; transition: all 250ms;
 }
-.box-title { display: block; font-size: 36px; line-height: 36px; margin: 10px 0px 20px 0px; }
+.box-title { display: block; font-size: 44px; line-height: 44px; font-style: italic; margin: 10px 0px 20px 0px; }
 
 #shane .box-title { font-size: 72px; line-height: 72px; font-weight: bold; color: #333; }
 
+#second-shane-link { color: rgb(3, 233, 102); }
+#second-shane-link:hover { color: rgb(233, 72, 3); text-decoration: none; }
+
 #tweet-heaven { border-right: 3px solid #35e9d7; }
-#heaven-link { color: #8028f2; font-size: 48px; font-style: italic; }
+#heaven-link { color: #8028f2; }
 #heaven-link:hover { color: #f24486; text-decoration: none; }
-#heaven-description { font-size: 175%; color: #a8a8a8; margin: 25px 0px 15px 0px; }
+#heaven-description { font-size: 20px; color: rgba(0, 0, 0, 0.7); margin: 25px 0px 15px 0px; }
 #heaven-description:hover { -webkit-transform: rotate(20deg); transform: rotate(20deg); }
 
 #content-volume-one { border-right: 3px solid yellow; }
 #content-volume-one-list a { display: block; margin-bottom: 10px; font-size: 20px; }
 #content-volume-one-archive-link { margin-top: 15px; }
 
-#recommends-title { font-size: 24px; }
+#recommends-title { font-size: 24px; line-height: 24px; }
