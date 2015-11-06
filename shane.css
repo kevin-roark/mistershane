@@ -8,6 +8,7 @@ a {
 a:hover, a:focus { text-decoration: underline; color: rgb(0, 110, 255); }
 
 .box {
+  position: relative;
   margin-bottom: 30px; padding: 15px; max-width: 555px;
   color: rgba(0, 0, 0, 0.87);
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
@@ -15,6 +16,8 @@ a:hover, a:focus { text-decoration: underline; color: rgb(0, 110, 255); }
   -webkit-transition: all 250ms; -moz-transition: all 250ms; transition: all 250ms;
 }
 .box-title { display: block; font-size: 44px; line-height: 44px; font-style: italic; margin: 10px 0px 20px 0px; }
+
+/* HOME PAGE */
 
 #shane .box-title { font-size: 72px; line-height: 72px; font-weight: bold; color: #333; }
 
@@ -33,3 +36,11 @@ a:hover, a:focus { text-decoration: underline; color: rgb(0, 110, 255); }
 #content-volume-one-archive-link { margin-top: 15px; }
 
 #recommends-title { font-size: 24px; line-height: 24px; }
+
+/* BLOG */
+
+.blog-title { display: block; font-size: 44px; line-height: 44px; margin: 20px 0px 20px 0px; }
+.blog-date { position: absolute; right: 10px; bottom: 10px; color: rgba(0, 0, 0, 0.75);
+    font-size: 20px; }
+.blog-body { line-height: 28px; }
+#thought-blog-list a { display: block; margin-bottom: 12px; font-size: 28px; line-height: 40px; }
