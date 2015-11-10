@@ -16,24 +16,29 @@ a:hover, a:focus { text-decoration: underline; color: rgb(0, 110, 255); }
   -webkit-transition: all 250ms; -moz-transition: all 250ms; transition: all 250ms;
 }
 .box-title { display: block; font-size: 44px; line-height: 44px; font-style: italic; margin: 10px 0px 20px 0px; }
+a.box-title:hover { text-decoration: none; }
 
 /* HOME PAGE */
 
 #shane .box-title { font-size: 72px; line-height: 72px; font-weight: bold; color: #333; }
 
-#second-shane { border-right: 3px solid #349de9; }
+#second-shane { border-right: 3px solid #ff8aad; }
 #second-shane-link { color: rgb(3, 233, 102); }
-#second-shane-link:hover { color: rgb(233, 72, 3); text-decoration: none; }
+#second-shane-link:hover { color: rgb(233, 72, 3); }
 
 #tweet-heaven { border-right: 3px solid #35e9d7; }
 #heaven-link { color: #8028f2; }
-#heaven-link:hover { color: #f24486; text-decoration: none; }
+#heaven-link:hover { color: #f24486; }
 #heaven-description { font-size: 20px; color: rgba(0, 0, 0, 0.7); margin: 25px 0px 15px 0px; }
 #heaven-description:hover { -webkit-transform: rotate(20deg); transform: rotate(20deg); }
 
 #content-volume-one { border-right: 3px solid yellow; }
 #content-volume-one-list a { display: block; margin-bottom: 10px; font-size: 20px; }
 #content-volume-one-archive-link { margin-top: 15px; }
+
+#thought-blog { border-right: 3px solid rgb(101, 101, 101); }
+#thought-blog-link { color: rgb(8, 166, 255); }
+#thought-blog-link:hover { color: rgb(255, 222, 0); }
 
 #recommends-title { font-size: 24px; line-height: 24px; }
 
