@@ -1,0 +1,51 @@
+
+body { padding: 50px; background-color: white; }
+
+a {
+  text-decoration: none; color: rgb(20, 22, 245);
+  -webkit-transition: all 250ms; -moz-transition: all 250ms; transition: all 250ms;
+}
+a:hover, a:focus { text-decoration: underline; color: rgb(0, 110, 255); }
+
+.box {
+  position: relative;
+  margin-bottom: 30px; padding: 15px; max-width: 555px;
+  color: rgba(0, 0, 0, 0.87);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+  font-family: 'Times New Roman', serif; font-size: 18px; line-height: 24px;
+  -webkit-transition: all 250ms; -moz-transition: all 250ms; transition: all 250ms;
+}
+.box-title { display: block; font-size: 44px; line-height: 44px; font-style: italic; margin: 10px 0px 20px 0px; }
+a.box-title:hover { text-decoration: none; }
+
+/* HOME PAGE */
+
+#shane .box-title { font-size: 72px; line-height: 72px; font-weight: bold; color: #333; }
+
+#second-shane { border-right: 3px solid #ff8aad; }
+#second-shane-link { color: rgb(3, 233, 102); }
+#second-shane-link:hover { color: rgb(233, 72, 3); }
+
+#tweet-heaven { border-right: 3px solid #35e9d7; }
+#heaven-link { color: #8028f2; }
+#heaven-link:hover { color: #f24486; }
+#heaven-description { font-size: 20px; color: rgba(0, 0, 0, 0.7); margin: 25px 0px 15px 0px; }
+#heaven-description:hover { -webkit-transform: rotate(20deg); transform: rotate(20deg); }
+
+#content-volume-one { border-right: 3px solid yellow; }
+#content-volume-one-list a { display: block; margin-bottom: 10px; font-size: 20px; }
+#content-volume-one-archive-link { margin-top: 15px; }
+
+#thought-blog { border-right: 3px solid rgb(101, 101, 101); }
+#thought-blog-link { color: rgb(8, 166, 255); }
+#thought-blog-link:hover { color: rgb(255, 222, 0); }
+
+#recommends-title { font-size: 24px; line-height: 24px; }
+
+/* BLOG */
+
+.blog-title { display: block; font-size: 44px; line-height: 44px; margin: 20px 0px 20px 0px; }
+.blog-date { position: absolute; right: 10px; bottom: 10px; color: rgba(0, 0, 0, 0.75);
+    font-size: 20px; }
+.blog-body { line-height: 28px; }
+#thought-blog-list a { display: block; margin-bottom: 12px; font-size: 28px; line-height: 40px; }

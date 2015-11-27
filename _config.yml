@@ -1,0 +1,7 @@
+permalink: none
+baseurl: "/"
+url: http://www.mistershane.com
+exclude:
+- .gitignore
+- README.md
+- CNAME

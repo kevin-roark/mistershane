@@ -1,12 +1,8 @@
----
-title: Mister Shane's Thought Blog
----
-
 <!DOCTYPE html>
 <html>
   <head>
     <meta charset="utf-8"/>
-    <title>{{ page.title }}</title>
+    <title>Mister Shane's Thought Blog</title>
     <link rel="shortcut icon" href="/favicon.png?v=1.0" />
     <link rel="stylesheet" href="/shane.css" />
 
@@ -15,7 +11,7 @@ title: Mister Shane's Thought Blog
     <meta name="author" content="Mister Shane">
     <meta name="keywords" content="Mister Shane, Multimedia, Experimental, Art, Masculine">
 
-    <meta property="og:title" content="{{ page.title }}"/>
+    <meta property="og:title" content="Mister Shane's Thought Blog"/>
     <meta property="og:type" content="website"/>
     <meta property="og:image" content="http://www.mistershane.com/media/shortcuts.jpg"/>
     <meta property="og:description" content="Mister Shane is a layered and interconnected multimedia art project. This is a collection of his Written Thoughts.">
@@ -29,13 +25,25 @@ title: Mister Shane's Thought Blog
   </head>
    <body>
     <div id="blog-header" class="box">
-      <div class="box-title">{{ page.title }}</div>
+      <div class="box-title">Mister Shane's Thought Blog</div>
     </div>
 
     <div id="thought-blog-list" class="box">
-      {% for item in site.categories.blog %}
-        <a href="{{ item.url }}">{{ item.title }} — {{ item.date | date: "%m/%d/%Y" }}</a>
-      {% endfor %}
+      
+        <a href="/blog/fear.html">Why I Embrace My Fear — 11/24/2015</a>
+      
+        <a href="/blog/work.html">Why Do We Work? — 11/18/2015</a>
+      
+        <a href="/blog/velocity.html">How I Reached My Escape Velocity — 11/15/2015</a>
+      
+        <a href="/blog/google.html">How I Got A Job Offer From Google And Why I Turned It Down To Be My Own Boss — 11/08/2015</a>
+      
+        <a href="/blog/son.html">He's More Than Just My Son — 11/07/2015</a>
+      
+        <a href="/blog/marriage.html">How I Keep My Marriage Fresh — 11/06/2015</a>
+      
+        <a href="/blog/fame.html">Why I Seek Fame — 11/05/2015</a>
+      
     </div>
 
     <div id="contact" class="box">
