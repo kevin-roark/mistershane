@@ -22,6 +22,10 @@ a.box-title:hover { text-decoration: none; }
 
 #shane .box-title { font-size: 72px; line-height: 72px; font-weight: bold; color: #333; }
 
+#at-sea { border-right: 3px solid #aaa; }
+#at-sea-link { color: rgb(20, 22, 245); text-shadow: 2px 3px 10px rgba(20, 22, 245, 0.7); }
+#at-sea-link:hover { color: rgb(245, 20, 20); }
+
 #second-shane { border-right: 3px solid #ff8aad; }
 #second-shane-link { color: rgb(3, 233, 102); }
 #second-shane-link:hover { color: rgb(233, 72, 3); }
