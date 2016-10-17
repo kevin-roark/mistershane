@@ -21,7 +21,12 @@ a.box-title:hover { text-decoration: none; color: black !important; text-shadow:
 /* HOME PAGE */
 /* future nice colors: #f24486 */
 
+.content-list a { display: block; margin-bottom: 10px; font-size: 20px; }
+
 #shane .box-title { font-size: 72px; line-height: 72px; font-weight: bold; color: #212020; }
+
+#new-video-work { border-right: 3px dashed rgb(0, 0, 255); }
+#new-video-work .box-title { text-shadow: 2px 3px 10px rgba(0, 0, 0, 0.7); }
 
 #woody { border-right: 3px solid rgb(255, 0, 0); }
 #woody-link { color: rgb(245, 20, 20); text-shadow: 2px 3px 10px rgba(245, 20, 20, 0.7); }
@@ -41,7 +46,6 @@ a.box-title:hover { text-decoration: none; color: black !important; text-shadow:
 #heaven-description:hover { -webkit-transform: rotate(20deg); transform: rotate(20deg); }
 
 #content-volume-one { border-right: 3px solid yellow; }
-#content-volume-one-list a { display: block; margin-bottom: 10px; font-size: 20px; }
 #content-volume-one-archive-link { margin-top: 15px; }
 #content-volume-one .box-title { text-shadow: 2px 3px 10px rgba(0, 0, 0, 0.7); }
 
