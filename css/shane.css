@@ -25,6 +25,9 @@ a.box-title:hover { text-decoration: none; color: black !important; text-shadow:
 
 #shane .box-title { font-size: 72px; line-height: 72px; font-weight: bold; color: #212020; }
 
+#lemonade-performance { border-right: 3px solid #D4F0FF; }
+#lemonade-performance-link { color: rgb(228, 232, 92); text-shadow: 2px 3px 10px rgba(228, 232, 92, 0.7); }
+
 #new-video-work { border-right: 3px dashed rgb(0, 0, 255); }
 #new-video-work .box-title { text-shadow: 2px 3px 10px rgba(0, 0, 0, 0.7); }
 
@@ -35,7 +38,7 @@ a.box-title:hover { text-decoration: none; color: black !important; text-shadow:
 #at-sea-link { color: rgb(20, 22, 245); text-shadow: 2px 3px 10px rgba(20, 22, 245, 0.7); }
 
 #dog-shadow { border-right: 3px solid rgb(201, 148, 28); }
-#dog-shadow-link { color: rgb(255, 222, 0); text-shadow: 2px 3px 10px rgba(255, 222, 0, 0.7); }
+#dog-shadow-link { color: rgb(255, 222, 28); text-shadow: 2px 3px 10px rgba(255, 222, 28, 0.7); }
 
 #second-shane { border-right: 3px solid #ff8aad; }
 #second-shane-link { color: rgb(20, 245, 30); text-shadow: 2px 3px 10px rgba(20, 245, 30, 0.7); }
