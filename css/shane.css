@@ -18,12 +18,23 @@ a:hover, a:focus { text-decoration: underline; }
 .box-title { display: block; font-size: 44px; line-height: 44px; font-style: italic; margin: 10px 0px 20px 0px; }
 a.box-title:hover { text-decoration: none; color: black !important; text-shadow: 2px 3px 10px rgba(0, 0, 0, 0.7) !important; }
 
+ul, ol {
+  margin: 10px 25px; padding: 0;
+}
+
+ul li, ol li {
+  margin: 5px 0; padding: 0;
+}
+
 /* HOME PAGE */
 /* future nice colors: #f24486 */
 
-.content-list a { display: block; margin-bottom: 10px; font-size: 20px; }
+.content-list a, .content-list div { display: block; margin-bottom: 10px; font-size: 20px; }
 
 #shane .box-title { font-size: 72px; line-height: 72px; font-weight: bold; color: #212020; }
+
+#lucky { border-right: 3px solid #f24486; }
+#lucky-link { color: #f24486; text-shadow: 2px 3px 10px rgba(242, 68, 134, 0.7); }
 
 #lemonade-performance { border-right: 3px solid #D4F0FF; }
 #lemonade-performance-link { color: rgb(228, 232, 92); text-shadow: 2px 3px 10px rgba(228, 232, 92, 0.7); }
